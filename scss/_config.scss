@@ -1,0 +1,26 @@
+  $White: hsl(0, 0%, 100%);
+     $Grey: hsl(0, 0%, 50%);
+    $Black: hsl(0, 0%, 7%);
+    $yellow: hsl(47, 88%, 63%);
+
+
+.container{
+    max-width:375px;
+    margin:150px auto;
+    padding:20px;
+    border-radius:20px;
+    border-bottom:10px  solid #222;
+    border-right:10px  solid #222;
+    background-color:#fff;
+    align-items:center;
+    justify-content:center;
+    height:550px;
+    
+}
+
+@font-face{
+    font-family:'figtree';
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+    font-family:'figtree';
+    src: url(../fonts/Figtree-Italic-VariableFont_wght.ttf);
+}

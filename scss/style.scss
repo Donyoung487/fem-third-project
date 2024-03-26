@@ -1,0 +1,63 @@
+@import 'config';
+
+
+body{
+    background-color:$yellow;
+    font-family: 'figtree';
+}
+
+.header{
+    text-align: center;
+    align-items:center;
+    justify-content:center;
+
+    
+img{
+    width:100%;
+    border-radius:20px;
+}
+
+}
+
+.scn{
+    font-family:'figtree';
+    padding-top: 50px;
+
+    a{
+        font-size:16px;
+        font-weight:bold;
+        text-decoration: none;
+        color: $Black;
+        background-color: $yellow;
+        padding:5px 10px;
+        border-radius:5px;
+    }
+
+    .ari{
+        color:;
+    }
+
+    h1:active{
+        color: $yellow;
+    }
+
+    .p{
+        padding-top:10px;
+        font-size:16px;
+        color:$Grey;
+    }
+}
+
+.flex{
+    padding-top:px;
+    font-family:'figtree' ;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    gap: 15px;
+
+    img{
+        width: 10%;
+    }
+}
+
